@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layuot for the detail activity-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBG"
+    android:orientation="vertical"
+    android:weightSum="23"
+    tools:context=".ui.help.HelpFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@drawable/capture"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/help_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:text="How we can help you ?"
+                android:textColor="#F65252"
+                android:textSize="30sp"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout style="@style/detLayout">
+                <TextView
+                    style="@style/labelTxtStyle"
+                    android:id="@+id/question1"
+                    android:text="question1" />
+                <TextView
+                    android:id="@+id/answer1"
+                    style="@style/detailTxtStyle"
+                    android:background="@drawable/help_border"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/detLayout">
+                <TextView
+                    style="@style/labelTxtStyle"
+                    android:id="@+id/question2"
+                    android:text="question2" />
+                <TextView
+                    android:id="@+id/answer2"
+                    style="@style/detailTxtStyle"
+                    android:background="@drawable/help_border"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/detLayout">
+                <TextView
+                    style="@style/labelTxtStyle"
+                    android:id="@+id/question3"
+                    android:text="question3" />
+                <TextView
+                    android:id="@+id/answer3"
+                    style="@style/detailTxtStyle"
+                    android:background="@drawable/help_border"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/still_need_more_assistance"
+                android:textColor="@color/toolBarBG"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/more_assist"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/toolBarBG"
+                android:text="@string/for_more_help_please_send_an_email_to"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/firstEmailId"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@color/toolBarBG"
+                android:text="@string/aditi_tomar_student_csulb_in"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/toolBarBG"
+                android:layout_weight="1"
+                android:id="@+id/secondEmailId"
+                android:layout_gravity="center"
+                android:text="@string/upasana_garg_student_csulb_in"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

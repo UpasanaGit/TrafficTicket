@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TrafficTicket</string>
+    <string name="passMisMatch">Confirm password doesn\'t match.</string>
+    <string name="invalidName">Enter a valid email.</string>
+    <string name="invalidMail">Enter a valid email address.</string>
+    <string name="wrongFormat">Length should be minimum eight characters, at least one uppercase letter, one lowercase letter and one number.No special characters.</string>
+    <string name="incorrectPhone">Enter a valid phone number.</string>
+    <string name="invalidDate">Enter a valid date.</string>
+    <string name="invalidPassword">Enter a valid password.</string>
+    <string name="title_activity_ticket_list">TicketList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Traffic Ticket</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_update_profile">Update Profile</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+
+    <string name="for_more_help_please_send_an_email_to">For more help, please send an email to</string>
+    <string name="aditi_tomar_student_csulb_in">Aditi.Tomar@student.csulb.edu</string>
+    <string name="upasana_garg_student_csulb_in">Upasana.Garg@student.csulb.edu</string>
+    <string name="still_need_more_assistance">Still need more assistance?</string>
+    <string name="menu_resetpwd">Reset Password</string>
+    <string name="menu_logout">Logout</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458686164208",
+    "firebase_url": "https://trafficticket-6adb7.firebaseio.com",
+    "project_id": "trafficticket-6adb7",
+    "storage_bucket": "trafficticket-6adb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458686164208:android:6f93b580cece3670c06635",
+        "android_client_info": {
+          "package_name": "com.example.trafficticket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458686164208-53esru7it3mc1t316bvtjk52loidf4e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trafficticket",
+            "certificate_hash": "b2d749fe0bc81a265fa97eaf819d6c0af67264e0"
+          }
+        },
+        {
+          "client_id": "458686164208-flhritq3crrvhr9bpms5cumkmoj1v1tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeBR3bmbCUpdBY6RdZJrRT2VtD_uiq_Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458686164208-flhritq3crrvhr9bpms5cumkmoj1v1tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
